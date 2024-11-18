@@ -1,0 +1,5 @@
+require(["base/js/namespace"], function (Jupyter) {
+  // This ensures that clicking on a notebook
+  // opens it in the same tab, not a new one.
+  Jupyter._target = "_self";
+});
